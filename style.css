@@ -52,3 +52,15 @@
 .carousel img{
   height: 700px;
 }
+
+#services{
+  text-align: center;
+}
+#services .card{
+  padding: 10%;
+  background-color: rgba(109, 109, 109, 0.164);
+}
+#about, #home{
+  font-size: 20px;
+  padding: 3%;
+}
