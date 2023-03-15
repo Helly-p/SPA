@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Single Page Application</title>
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -19,24 +22,163 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <ul>
-            <li>Menu</li>
+            <li>Dashboard</li>
             <hr>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Us</a></li>
-            <li><a href="">Images</a></li>
-            <li><a href="">Services</a></li>
+            <li>
+                <a href="#box" onclick="loadXMLDoc('home')">
+                    <i class="fa fa-home" aria-hidden="true" style="font-size:25px"></i>
+                    &nbsp;Home
+                </a>
+            </li>
+            <li>
+                <a href="#box" onclick="loadXMLDoc('about')">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>
+                    &nbsp;About Us
+                </a>
+            </li>
+            <li>
+                <a href="#images" onclick="loadXMLDoc('images')">
+                    <i class="fa fa-picture-o" aria-hidden="true"></i>
+                    &nbsp;Images
+                </a>
+            </li>
+            <li>
+                <a href="#box" onclick="loadXMLDoc('services')">
+                    <i class="fa fa-address-book" aria-hidden="true"></i>
+                    &nbsp;Services
+                </a>
+            </li>
         </ul>
     </div>
 
     <!-- Content -->
-    <div class="container">
-
+    <div id="box" class="content">
         <div>
-            <h1>Home Page</h1>
-        </div>
+            <div id="title">
+                <h1> Home </h1>
+            </div>
+            <div>
+                <p>Nearly every organization will need to become a tech company in order to compete tomorrow. Yes, even
+                    yours. At Simform, we are on a mission to help companies develop competitiveness and agility using
+                    the
+                    software.
 
+                    We are a product engineering company with a mission to solve complex software engineering problems.
+                    Founded in 2010, we have helped organizations ranging from Startups that went public, to Fortune 500
+                    companies, and progressive Enterprises.
+
+                    Our Product Innovation Center transforms your engineering from being bottlenecks to growth drivers.
+                    We
+                    help you to identify and solve critical business challenges with proven technology practices such as
+                    DevOps, cloud-native development, and quality engineering services. Our remote agile teams of
+                    engineers
+                    immerse themselves in your project, maintaining your company culture and working in line with your
+                    strategic goals.
+                </p>
+            </div>
+
+
+            <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptate temporibus ut hic,
+                    consectetur quam doloremque neque voluptatibus amet sit corporis voluptas recusandae enim. Eligendi
+                    vero itaque architecto veritatis laborum. Vel corporis excepturi commodi dignissimos optio sequi
+                    maxime, molestias reprehenderit minus quidem nihil? Ipsa dignissimos sit non quaerat adipisci sed
+                    numquam aliquam, odit quisquam blanditiis. Esse ducimus vitae itaque iusto sed fugit non corrupti
+                    consequuntur libero, quam odit necessitatibus facilis sint facere? Assumenda delectus nulla totam
+                    vitae fugit quaerat dolorem accusamus iure odio harum sit nesciunt, deserunt numquam ab, eos, esse a
+                    veniam nihil sint error libero provident explicabo rerum! Porro illum corrupti velit neque maxime
+                    obcaecati natus? Eum consectetur vel deserunt, illum laboriosam velit sit cupiditate architecto
+                    consequatur unde ad eos incidunt tenetur! Esse saepe necessitatibus iste blanditiis deserunt veniam
+                    nemo placeat ex, quibusdam dolores, voluptatum quasi temporibus expedita, provident ullam numquam
+                    aspernatur itaque. Corrupti aut quo, porro velit placeat ex pariatur repellat mollitia inventore
+                    ratione! Nisi suscipit ipsum necessitatibus iste delectus enim, alias laboriosam provident,
+                    veritatis quaerat exercitationem velit modi error. Veniam porro inventore illum. Tenetur quidem in
+                    quos provident magni ab earum error deserunt minus blanditiis iusto repudiandae, nulla, quis
+                    laboriosam sit odio non nemo quo. Corrupti dolorum tempore iure nam veritatis voluptas, officia
+                    debitis ut sapiente ad aspernatur velit dolore voluptates. Incidunt qui ducimus suscipit error
+                    deserunt facilis quae veritatis, sed numquam. Omnis neque voluptates maiores iure perspiciatis saepe
+                    reprehenderit placeat repellendus. Natus consequatur commodi explicabo. Labore, praesentium eos.
+                    Recusandae cumque et minima ea fugit voluptatibus numquam voluptatum doloribus sit quaerat nesciunt
+                    similique adipisci pariatur, molestias rerum consequuntur natus saepe qui impedit mollitia ullam
+                    molestiae maiores! Ipsam iusto ad perferendis, reiciendis nobis perspiciatis consectetur quas,
+                    doloribus quae earum autem! Possimus, itaque ut. Minus illum doloremque error, corporis quae facere
+                    vel enim ducimus quisquam voluptatum ratione eius corrupti repudiandae, ipsam temporibus officiis.
+                    Vel, ratione illum autem iste quasi consequuntur quo libero deleniti nam animi, nostrum architecto,
+                    cumque tenetur at sapiente magnam delectus numquam recusandae? Quibusdam placeat dolores fugit
+                    deserunt molestias cumque ex eius repudiandae veniam ullam perferendis modi consectetur, accusantium
+                    hic, quia quidem neque rerum necessitatibus sed nostrum quis exercitationem sit similique! Quam quia
+                    laudantium voluptate esse reprehenderit inventore dignissimos? Necessitatibus ratione libero
+                    sapiente assumenda praesentium excepturi error odio harum, asperiores perferendis eius optio
+                    quibusdam? Dolore cumque officia totam impedit qui sunt rerum quos delectus fuga id facere
+                    consequuntur quae hic, aut neque incidunt sed animi? Saepe natus tenetur nulla animi ullam neque.
+                    Sed corporis consectetur sint assumenda saepe corrupti magnam dolore qui autem dignissimos ratione
+                    iste fugiat, facilis hic nemo deserunt ut quas tenetur ipsum, officiis laboriosam. Molestias tempore
+                    nam officiis inventore magnam itaque nulla odit est velit quos aliquid commodi id aliquam, aut
+                    quidem voluptatem vero quaerat, facere nisi repellat! Fuga nemo amet id doloribus facilis quia
+                    porro, illo ullam libero corrupti molestiae eius quasi? Corrupti sunt nesciunt incidunt dolorum nam
+                    laborum doloribus magnam accusamus? Sequi fuga ipsa ratione facere accusamus quaerat fugit
+                    accusantium voluptatem, sit nisi. Placeat reiciendis dolore magnam cupiditate est eum non in error
+                    obcaecati quod atque vitae dicta recusandae ducimus, quae nulla enim rem, facilis commodi? Est,
+                    vero! Quis eos, alias magni possimus nisi tempora pariatur facilis incidunt voluptate cum fugiat,
+                    corrupti cumque at. Nostrum at rem vitae quasi fugiat voluptates, soluta porro necessitatibus sint
+                    quis cum quaerat accusantium iste, atque ex saepe odit velit harum voluptatum error praesentium
+                    reprehenderit repellendus animi laudantium! Ad esse fugit fuga necessitatibus, maxime reprehenderit
+                    mollitia quo sed, omnis eum eos nemo nobis asperiores eaque possimus illum et atque veritatis ipsum
+                    obcaecati quos iste quam distinctio debitis! Eos impedit nisi ab, in pariatur totam quidem tenetur
+                    unde, sint soluta ipsam nostrum eius eveniet sunt dolore cupiditate placeat fugit, ex officiis et
+                    quam cumque nihil. Quae iste fugit incidunt totam odit corrupti libero consectetur tenetur at? A
+                    eaque, natus porro similique ea doloremque totam ipsum qui laudantium suscipit? Perspiciatis,
+                    possimus? Eveniet commodi, dicta quaerat hic, maxime ut mollitia harum deserunt sapiente ab totam
+                    tempora voluptatem rem, modi veniam? Quod inventore laborum mollitia cumque officiis maxime
+                    voluptatibus asperiores cupiditate fugiat possimus, corrupti quidem, delectus officia cum odio
+                    quisquam rem! Debitis odio quaerat temporibus ipsum fugit veritatis vel praesentium magnam id quas
+                    vero necessitatibus repellat iusto dolor tenetur quo earum eveniet illo cum numquam commodi
+                    laudantium, rem obcaecati. Debitis, nihil cupiditate, pariatur repudiandae cum neque labore, fuga
+                    consectetur laborum nesciunt maiores eligendi rem esse. Eveniet reiciendis delectus porro
+                    perspiciatis ab pariatur repellat eaque, quas dicta rem nobis aperiam veritatis aliquam, fugiat
+                    dignissimos quis. Quasi pariatur sapiente quo cupiditate ducimus cumque, ullam fugiat maxime odit
+                    quidem dolores repudiandae eligendi neque aliquid a dicta.</p>
+            </div>
+        </div>
+        <div id="images">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://img.freepik.com/free-photo/wide-angle-shot-single-tree-growing-clouded-sky-during-sunset-surrounded-by-grass_181624-22807.jpg" class="d-block w-100" alt="Image 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNOICUijMmLWz2nv2iweRCvJB8pdGrN0yjMf2kezqkj5hlL7JgehriZ5Zjc6ApYbpQTnY&usqp=CAU" class="d-block w-100" alt="Image 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFbWN6Mo7az66M7iRQYwsAuTKhEfHFInhxpdcSjk2iByMBm2gyVbJ-p19L1WfDbaxBKIQ&usqp=CAU" class="d-block w-100" alt="Image 3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
     </div>
 
+
+
+    <!-- Boostrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+
+    <script src="./script.js"></script>
 </body>
 
 </html>
