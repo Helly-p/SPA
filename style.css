@@ -2,6 +2,8 @@
   box-sizing: border-box;
   padding: 0;
 }
+
+/* Sidebar CSS */
 .sidebar {
   height: 100%;
   width: 300px;
@@ -13,10 +15,12 @@
   left: 0;
   box-shadow: 1px 1px 5px rgb(0, 0, 0);
 }
+
 .sidebar ul {
   margin: 20px 20px;
   height: 500px;
 }
+
 .sidebar ul li {
   list-style-type: none;
   width: 200px;
@@ -25,7 +29,8 @@
   color: white;
   cursor: pointer;
 }
-.sidebar ul li i{
+
+.sidebar ul li i {
   font-size: 20px;
 }
 
@@ -38,6 +43,7 @@
   font-size: 40px;
 }
 
+/* Content */
 .content {
   margin: 1%;
   margin-left: 15%;
@@ -46,21 +52,27 @@
   box-shadow: 1px 1px 5px rgba(141, 141, 141, 0.842);
 }
 
-.carousel{
-  width: 100%;
-}
-.carousel img{
-  height: 700px;
-}
-
-#services{
+#services {
   text-align: center;
 }
-#services .card{
+
+#services .card {
   padding: 10%;
   background-color: rgba(109, 109, 109, 0.164);
 }
-#about, #home{
+
+#about,
+#home {
   font-size: 20px;
   padding: 3%;
+}
+
+
+/* Image Slider */
+.carousel {
+  width: 100%;
+}
+
+.carousel img {
+  height: 700px;
 }

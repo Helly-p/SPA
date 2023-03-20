@@ -1,3 +1,4 @@
+// XHR Request Function
 async function loadXMLDoc(route) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
@@ -16,6 +17,7 @@ async function loadXMLDoc(route) {
   xhttp.send();
 }
 
+// Fetch HTML Document
 async function loadHTML(filepath) {
   const box = document.getElementById("box");
   const file = await fetch(filepath)
