@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page Application</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="./bootstrap/bootstrap.min.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <ul>
+            <li>Dashboard</li>
+            <hr>
+            <li>
+                <a href="./index.html">
+                    <i class="fa fa-home" aria-hidden="true" style="font-size:25px"></i>&nbsp;Home
+                </a>
+            </li>
+            <li>
+                <a onclick="loadXMLDoc('about')">
+                    <i class="fa fa-user-circle-o" aria-hidden="true"></i>&nbsp;About Us
+                </a>
+            </li>
+            <li>
+                <a onclick="loadXMLDoc('images')">
+                    <i class="fa fa-picture-o" aria-hidden="true"></i>&nbsp;Images
+                </a>
+            </li>
+            <li>
+                <a onclick="loadXMLDoc('services')">
+                    <i class="fa fa-address-book" aria-hidden="true"></i>&nbsp;Services
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Content -->
+    <div id="box" class="content">
+        <div>
+            <div id="title">
+                <h1> Home </h1>
+            </div>
+            <div id="home">
+                <p>
+                    Nearly every organization will need to become a tech company in order to compete tomorrow. Yes, even
+                    yours. At Simform, we are on a mission to help companies develop competitiveness and agility using
+                    the
+                    software.
+
+                    We are a product engineering company with a mission to solve complex software engineering problems.
+                    Founded in 2010, we have helped organizations ranging from Startups that went public, to Fortune 500
+                    companies, and progressive Enterprises.
+
+                    Our Product Innovation Center transforms your engineering from being bottlenecks to growth drivers.
+                    We
+                    help you to identify and solve critical business challenges with proven technology practices such as
+                    DevOps, cloud-native development, and quality engineering services. Our remote agile teams of
+                    engineers
+                    immerse themselves in your project, maintaining your company culture and working in line with your
+                    strategic goals.
+                </p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Boostrap JS -->
+    <script src="./bootstrap/popper.min.js"></script>
+    <script src="./bootstrap/bootstrap.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="./script.js"></script>
+</body>
+
+</html>

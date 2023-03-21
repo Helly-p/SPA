@@ -1,0 +1,5 @@
+{
+  "about": "/templates/about.html",
+  "images":"./templates/images.html",
+  "services":"/templates/services.html"
+}

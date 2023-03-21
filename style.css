@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Sidebar CSS */
+.sidebar {
+  height: 100%;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.856);
+  position: fixed !important;
+  z-index: 1;
+  overflow: auto;
+  top: 0;
+  left: 0;
+  box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+
+.sidebar ul {
+  margin: 20px 20px;
+  height: 500px;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+  width: 200px;
+  font-size: 23px;
+  margin: 20px 0px;
+  color: white;
+  cursor: pointer;
+}
+
+.sidebar ul li i {
+  font-size: 20px;
+}
+
+.sidebar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.sidebar ul li:first-child {
+  font-size: 40px;
+}
+
+/* Content */
+.content {
+  margin: 1%;
+  margin-left: 15%;
+  padding: 6%;
+  width: 83%;
+  box-shadow: 1px 1px 5px rgba(141, 141, 141, 0.842);
+}
+
+#services {
+  text-align: center;
+}
+
+#services .card {
+  padding: 10%;
+  background-color: rgba(109, 109, 109, 0.164);
+}
+
+#about,
+#home {
+  font-size: 20px;
+  padding: 3%;
+}
+
+/* Image Slider */
+.carousel {
+  width: 100%;
+}
+
+.carousel img {
+  height: 700px;
+}
